@@ -1,0 +1,280 @@
+.cards {
+	height: 2000px;
+}
+.games {
+	overflow: hidden;
+}
+.games__title {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 500;
+}
+.card__item {
+	position: relative;
+}
+.games__image {
+	position: absolute;
+	right: 195px;
+	width: 400px;
+}
+.games__image.royale {
+	width: 320px;
+	right: 245px;
+}
+.games__image.cal {
+	width: 350px;
+	right: 300px;
+}
+.games__image.roblox {
+	right: 130px;
+	width: 600px;
+}
+.games__image.brawl {
+	right: 345px;
+	width: 200px;
+}
+.games__image img {
+	width: 100%;
+}
+#color_freefire.rectangle {
+	background: #E9A726;
+}
+#color_pubg.rectangle {
+	background: #B22D2D;
+}
+#color_standoff.rectangle {
+	background: #eb5f28;
+}
+#color_roblox.rectangle {
+	background: #e3701e;
+}
+#color_call.rectangle {
+	background: #B22D2D;
+}
+#color_royale.rectangle {
+	background: #ebb22f;
+}
+.rectangle.left {
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	right: 15%;
+	border-radius: 80px;
+	background: #d4301e;
+	width: 900px;
+	height: 220px;
+
+}
+@media (max-width: 1152px) {
+		.rectangle.left {
+			right: 20%;
+		}
+
+}
+.rectangle.right {
+	overflow: hidden;
+	position: relative;
+	top: -215px;
+	right: -50%;
+	border-radius: 80px;
+	background: #ffd633;
+	width: 900px;
+	height: 220px;
+}
+.card__obl {
+	position: relative;
+}
+.line.left {
+	margin: 100px 0 100px 90px;
+}
+.line.right {
+	margin: -374px 0 -145px 895px;
+}
+.card__text {
+	z-index: 11;
+	color:  #fff;
+	position: absolute;
+	top:  50%;
+	transform: translateY(-50%);
+	right: 70px;
+	font-size: 32px;
+	font-weight: 500;
+}
+.card__text.right {
+	right:  620px;
+}
+.bb.vv {
+	position: relative;
+	top: -200px;
+
+}
+.bb.ss {
+	position: relative;
+	top: -400px;
+
+}
+.bb.qq {
+	position: relative;
+	top: -600px;
+
+}
+@media (max-width: 1152px) {
+	.line.left {
+			margin-left: 25px;		
+		}
+	.line.right {
+		margin-left: 742px;
+	}
+}
+@media (max-width: 1025px) {
+	.line.left {
+			margin-left: -100px;			
+		}
+	.line.right {
+		margin-left: 742px;
+	}
+	.rectangle.right {
+			right: -40%;
+	}
+}
+@media (max-width: 960px) {
+	.line.left {
+			margin-left: -160px;			
+		}
+	.line.right {
+		margin-left: 800px;
+	}
+@media (max-width: 761px) {
+	.line.left {
+			margin-left: -230px;			
+		}
+	.line.right {
+		margin-left: 610px
+	}
+	.rectangle.right {
+		right: -38%;
+	}
+	.rectangle.left {
+		right: 46%;
+	}
+}
+@media (max-width: 654px){
+	.line.left {
+			margin-left: -230px;			
+		}
+	.line.right {
+		margin-left: 400px
+	}
+	.rectangle.right {
+		right: -38%;
+	}
+	.rectangle.left {
+		right: 78%;
+	}
+}
+@media (max-width:  653px) {
+	.line.left {
+		visibility: hidden;	
+		opacity: 0;	
+		}
+	.line.right {
+		visibility: hidden;	
+		opacity: 0;	
+	}
+}
+@media (max-width: 516px) {
+	.rectangle.right {
+		top: -226px;
+		right: -3%;
+	}
+	.rectangle.left {
+		right: 78%;
+	}
+}
+@media (max-width: 426px) {
+	.rectangle.left {
+		right: 115%;
+	}
+	.card__text.right {
+		right: 665px;
+	}
+	.card__text.right.roblox_right {
+		right: 777px;
+	}
+	.games__image.free_right {
+		right: 95px;
+	}
+	.games__image.pubg_right {
+		right: 350px;
+	}
+	.games__image.standoff_right {
+		right: 129px;
+	}
+	.games__image.clans_right {
+		right: 460px;
+	}
+	.games__image.brawl {
+		right: 225px;
+	}
+	.games__image.roblox {
+		right: 350px;
+	}
+	.games__image.cal {
+		right: 175px;
+	}
+	.games__image.royale {
+		right: 435px;
+	}
+}
+@media (max-width: 376px) {
+	.rectangle.right {
+		top: -226px;
+		right: -3%;
+	}
+	.rectangle.left {
+		right: 143%;
+	}
+}
+@media (max-width: 321px) {
+	.card__text.left {
+		right:  16px;
+	}
+	.card__text.left.call {
+		font-size: 27px;
+		right:  16px;
+	}
+	.rectangle.right {
+		top: -226px;
+		right: -3%;
+	}
+	.rectangle.left {
+		right: 184%;
+	}
+	.games__image.free_right {
+		right: 20px;
+	}
+	.games__image.pubg_right {
+		right: 415px;
+	}
+	.games__image.standoff_right {
+		right: 39px;
+	}
+	.games__image.clans_right {
+		right: 567px;
+	}
+	.games__image.brawl {
+		right: 143px;
+	}
+	.games__image.roblox {
+		right: 404px;
+	}
+	.games__image.cal {
+		right: 38px;
+	}
+	.games__image.royale {
+		right: 509px;
+	}
+}
